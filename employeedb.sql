@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th3 24, 2025 lúc 01:05 PM
+-- Thời gian đã tạo: Th3 24, 2025 lúc 01:16 PM
 -- Phiên bản máy phục vụ: 10.4.32-MariaDB
 -- Phiên bản PHP: 8.0.30
 
@@ -70,10 +70,10 @@ CREATE TABLE `employees` (
 --
 
 INSERT INTO `employees` (`id`, `name`, `email`, `phone`, `hire_date`, `department_id`, `position`) VALUES
-(1, 'Nguyễn Văn An', 'nva@example.com', '0987654321', '2022-05-10', 1, 'Nhân sự'),
-(2, 'Trần Thị Bích', 'ttb@example.com', '0976543210', '2023-06-15', 2, 'Lập trình viên'),
-(3, 'Lê Văn Cường', 'lvc@example.com', '0912345678', '2021-09-20', 3, 'Kế toán'),
-(4, 'Phạm Thị Dung', 'ptd@example.com', '0934567890', '2020-12-01', 4, 'Marketing Manager'),
+(1, 'Nguyễn Thế Kỷ', 'ntk@example.com', '0987654321', '2022-05-10', 1, 'Nhân sự'),
+(2, 'Đặng Minh Phương', 'dmp@example.com', '0976543210', '2023-06-15', 2, 'Lập trình viên'),
+(3, 'Nguyễn Công Danh', 'ncd@example.com', '0912345678', '2021-09-20', 3, 'Kế toán'),
+(4, 'Nguyễn Như Quỳnh', 'nnq@example.com', '0934567890', '2020-12-01', 4, 'Marketing Manager'),
 (5, 'Hoàng Văn Đức', 'hve@example.com', '0978456123', '2019-03-25', 5, 'Nhân viên bán hàng'),
 (6, 'Đặng Thị Hương', 'dtf@example.com', '0923456789', '2022-07-15', 6, 'Hỗ trợ khách hàng'),
 (7, 'Võ Văn Kiệt', 'vvg@example.com', '0956789123', '2023-01-10', 7, 'Nghiên cứu viên'),
@@ -102,10 +102,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `employee_id`, `username`, `password`, `role`, `status`, `created_at`) VALUES
-(1, 1, 'nguyenvanan', '123456', 'manager', 'active', '2025-03-24 09:05:16'),
-(2, 2, 'tranthibich', 'abc123', 'employee', 'active', '2025-03-24 09:05:16'),
-(3, 3, 'levancuong', 'password1', 'manager', 'active', '2025-03-24 09:05:16'),
-(4, 4, 'phamthidung', 'password2', 'employee', 'active', '2025-03-24 09:05:16'),
+(1, 1, 'nguyentheky', '123456', 'manager', 'active', '2025-03-24 09:05:16'),
+(2, 2, 'dangminhphuong', 'abc123', 'employee', 'active', '2025-03-24 09:05:16'),
+(3, 3, 'trancongdanh', 'password1', 'manager', 'active', '2025-03-24 09:05:16'),
+(4, 4, 'nguyennhuquynh', 'password2', 'employee', 'active', '2025-03-24 09:05:16'),
 (5, 5, 'hoangvanduc', 'password3', 'employee', 'active', '2025-03-24 09:05:16'),
 (6, 6, 'dangthihuong', 'password4', 'employee', 'active', '2025-03-24 09:05:16'),
 (7, 7, 'vovankiet', 'password5', 'manager', 'active', '2025-03-24 09:05:16'),
