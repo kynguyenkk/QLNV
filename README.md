@@ -1,4 +1,5 @@
 QLNV
+
 Tính năng chính
 Quản lý nhân viên: Thêm, sửa, xóa, tìm kiếm thông tin nhân viên .
 Quản lý phòng ban: Thêm, sửa, xóa phòng ban (chỉ dành cho admin).
